@@ -320,7 +320,7 @@ class Meta {
 
             foreach (self::$metaTags[$property] as $metaTag){
 
-                if($metaTag->attr('name') == $property){
+                if($metaTag->attr('property') == $property){
 
                     $metaTags[] = $metaTag;
                 }
