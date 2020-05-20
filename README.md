@@ -4,7 +4,7 @@ Generate html and meta tags with php classes
 ### Wiki
 
 [Meta Tags](https://github.com/emretulek/Html-Meta-Tag-Generator/wiki/Meta-Tags)
-```
+```php
 Meta::title(string $text = null)
 Meta::link(string $href, string $rel, $type = null)
 Meta::script(string $src = null, string $script = null, string $type = null)
@@ -24,7 +24,7 @@ Meta::getAllTags()
 ```
 
 [Html Tags](https://github.com/emretulek/Html-Meta-Tag-Generator/wiki/Html-Tags)
-```
+```php
 Html::tag(string $tagName, string $text = null)
 Html::form(string $action = null, string $method = "post", bool $multipart = false)
 Html::input(string $type, string $name, string $value = null)
@@ -41,7 +41,7 @@ Html::elements(array $elements)
 ```
 
 [Tag Class](https://github.com/emretulek/Html-Meta-Tag-Generator/wiki/Tag-Class)
-```
+```php
 Tag::text(string $text = null)
 Tag::html(string $html = null)
 Tag::val(string $value = null)`
