@@ -44,7 +44,7 @@ Html::elements(array $elements)
 ```php
 Tag::text(string $text = null)
 Tag::html(string $html = null)
-Tag::val(string $value = null)`
+Tag::val(string $value = null)
 Tag::attr($attributes, string $value = null)
 Tag::addClass(string $className)
 Tag::removeClass(string $className)
