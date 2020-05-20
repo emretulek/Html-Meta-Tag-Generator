@@ -41,7 +41,18 @@ Html::elements(array $elements)
 ```
 
 [Tag Class](https://github.com/emretulek/Html-Meta-Tag-Generator/wiki/Tag-Class)
-
+```
+Tag::text(string $text = null)
+Tag::html(string $html = null)
+Tag::val(string $value = null)`
+Tag::attr($attributes, string $value = null)
+Tag::addClass(string $className)
+Tag::removeClass(string $className)
+Tag::removeAttr($attributes)
+Tag::append(string $html)
+Tag::prepend(string $html)
+Tag::remove()
+```
 
 ### License
 
