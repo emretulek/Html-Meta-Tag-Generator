@@ -1,7 +1,7 @@
 # Html-Meta-Tag-Generator
 Generate html and meta tags with php classes
 
-###Wiki
+### Wiki
 
 [Meta Tags](https://github.com/emretulek/Html-Meta-Tag-Generator/wiki/Meta-Tags)
 
